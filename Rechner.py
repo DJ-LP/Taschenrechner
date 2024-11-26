@@ -35,11 +35,6 @@ if o == "*" :
     n1*=n2
     (print(n1))
     checker=False
-if o == "^" :
-    for i in range(0,n2):
-        n1*=n1
-    (print(n1))
-    checker=False
 if o == "/" :
     if n2 == 0:
         print("Division by 0 not possible")
@@ -50,4 +45,6 @@ if o == "/" :
         checker=False
 else:
     if checker == True:
-        print("Pleas only enter Numbers")
+        print("Pleas only enter Numbers") 
+#I hope my Projekt is god enough to Vote Noel
+#🐍 is the langretch wich i learn in school
